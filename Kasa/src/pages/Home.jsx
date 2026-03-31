@@ -1,15 +1,18 @@
 import data from "../data/logements.json";
 import Card from "../components/Card";
+import Banner from "../components/Banner";
 
 function Home() {
   return (
-    <div>
-      <h1>Home</h1>
+    <>
+      <Banner />
 
-      {data.map((logement) => (
-        <Card key={logement.id} logement={logement} />
-      ))}
-    </div>
+      <div className="home">
+        {data.slice(0, 6).map((logement) => (
+          <Card key={logement.id} logement={logement} />
+        ))}
+      </div>
+    </>
   );
 }
 
