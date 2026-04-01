@@ -1,13 +1,11 @@
-import bannerImg from "../assets/homeBanner.png";
-
-function Banner() {
+function Banner({ image, text, overlay = true }) {
   return (
     <div
       className="banner"
-      style={{ backgroundImage: `url(${bannerImg})` }}
+      style={{ backgroundImage: `url(${image})` }}
     >
-      <div className="banner-overlay"></div>
-      <h1>Chez vous, partout et ailleurs</h1>
+      {overlay && <div className="banner-overlay"></div>}
+      {text && <h1>{text}</h1>}
     </div>
   );
 }
