@@ -1,0 +1,154 @@
+.home {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+  background-color: #f6f6f6;
+  border-radius: 20px;
+}
+
+.card-link {
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+
+.card {
+  background-color: #ff6060;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 10px;
+  height: 300px;
+}
+
+.card img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.header nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+.nav-link.active {
+  text-decoration: underline;
+}
+
+.logo {
+  height: 50px;
+}
+
+.banner {
+  position: relative;
+  height: 200px;
+  border-radius: 20px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+}
+
+.banner h1 {
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.collapse {
+  width: 80%;
+  margin: 20px 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.collapse-header {
+  background-color: #ff6060;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.collapse-header h3 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.collapse-content {
+  color: black;
+  background-color: #f6f6f6;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.footer-logo {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.footer p {
+  margin: 5px 0;
+}
+
+.error {
+  text-align: center;
+  padding: 50px;
+}
+
+.error h1 {
+  font-size: 200px;
+  color: #ff6060;
+  padding: 10px;
+}
+
+.error p {
+  color: #ff6060;
+  font-size: 30px;
+  padding-top: 50px;
+  margin: 50px;
+}
+
+.error-link {
+  color: black;
+  text-decoration: underline;
+  font-weight: bold;
+}/*# sourceMappingURL=main.css.map */
