@@ -73,3 +73,50 @@
   width: 25px;
   height: 25px;
 }
+
+@media (max-width: 768px) {
+  .logement-header {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .logement-info h1 {
+    font-size: 20px;
+  }
+
+  .logement-right {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logement-details {
+    flex-direction: column;
+  }
+
+  .logement-details .collapse {
+    width: 100%;
+  }
+
+  .collapse {
+    margin-bottom: auto;
+  }
+
+  .tags {
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+
+  .tag {
+    font-size: 12px;
+    padding: 3px 8px;
+  }
+
+  .host {
+    flex-direction: row;
+  }
+
+  .host img {
+    width: 40px;
+  }
+}

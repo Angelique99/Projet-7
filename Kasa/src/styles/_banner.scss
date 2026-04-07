@@ -24,3 +24,9 @@
   position: relative;
   z-index: 1;
 }
+
+@media (max-width: 768px) {
+  .banner h1 {
+    font-size: 25px;
+  }
+}

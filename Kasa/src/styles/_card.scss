@@ -19,3 +19,12 @@
   display: block;
 }
 
+@media (max-width: 768px) {
+  .card {
+    height: 255px;
+  }
+
+  .card h3 {
+    font-size: 16px;
+  }
+}

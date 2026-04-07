@@ -6,3 +6,12 @@
   background-color: #f6f6f6;
   border-radius: 20px;
 }
+
+@media (max-width: 768px) {
+  .home {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 10px;
+  }
+}
