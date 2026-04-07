@@ -1,0 +1,38 @@
+.logement-header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.tags {
+  display: flex;
+  gap: 10px;
+}
+
+.tag {
+  background-color: #ff6060;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.logement-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.host {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.host img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.rating {
+  margin-top: 10px;
+}

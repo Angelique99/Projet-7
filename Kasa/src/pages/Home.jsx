@@ -10,7 +10,7 @@ function Home() {
 
 
       <div className="home">
-        {data.slice(0, 6).map((logement) => (
+        {data.map((logement) => (
           <Card key={logement.id} logement={logement} />
         ))}
       </div>
