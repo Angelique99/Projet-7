@@ -1,3 +1,14 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.main {
+    padding: 10px;
+}
+@media (max-width: 768px) {
+  .main {
+    padding: 5px;
+  }
+}
 @import "./home";
 @import "./card";
 @import "./header";
