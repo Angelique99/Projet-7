@@ -1,3 +1,13 @@
+@use "./home";
+@use "./card";
+@use "./header";
+@use "./banner";
+@use "./collapse";
+@use "./footer";
+@use "./error";
+@use "./carousel";
+@use "./logement";
+
 body {
   font-family: "Montserrat", sans-serif;
 }
@@ -9,12 +19,3 @@ body {
     padding: 5px;
   }
 }
-@import "./home";
-@import "./card";
-@import "./header";
-@import "./banner";
-@import "./collapse";
-@import "./footer";
-@import "./error";
-@import "./carousel";
-@import "./logement";
