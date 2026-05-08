@@ -8,8 +8,18 @@
   position: relative;
   border-radius: 10px;
   overflow: hidden;
-  padding: 10px;
   height: 300px;
+}
+
+.card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.5),
+    transparent 40%
+  );
 }
 
 .card img {
@@ -26,7 +36,7 @@
   margin: 8px;
   color: white;
   font-size: 20px;
-  
+  z-index: 2;
 }
 
 @media (max-width: 768px) {

@@ -21,3 +21,15 @@
   text-decoration: underline;
   font-weight: bold;
 }
+
+@media (max-width: 768px) {
+  .error h1 {
+    font-size : 100px;
+  }
+  .error p {
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    margin: 10px;
+  }
+}
